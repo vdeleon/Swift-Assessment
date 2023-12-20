@@ -17,6 +17,10 @@
 		57E22E9B2B33924100A6F1D5 /* Swift_AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E22E9A2B33924100A6F1D5 /* Swift_AssessmentUITests.swift */; };
 		57E22E9D2B33924100A6F1D5 /* Swift_AssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E22E9C2B33924100A6F1D5 /* Swift_AssessmentUITestsLaunchTests.swift */; };
 		57E22EAB2B33943400A6F1D5 /* Exercise1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E22EAA2B33943400A6F1D5 /* Exercise1.swift */; };
+		57E22EAE2B33983A00A6F1D5 /* ProductObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E22EAD2B33983A00A6F1D5 /* ProductObject.swift */; };
+		57E22EB02B339A4600A6F1D5 /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E22EAF2B339A4600A6F1D5 /* ProductService.swift */; };
+		57E22EB22B339A8500A6F1D5 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E22EB12B339A8500A6F1D5 /* ProductViewModel.swift */; };
+		57E22EB42B339B6F00A6F1D5 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E22EB32B339B6F00A6F1D5 /* ProductTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		57E22E9A2B33924100A6F1D5 /* Swift_AssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_AssessmentUITests.swift; sourceTree = "<group>"; };
 		57E22E9C2B33924100A6F1D5 /* Swift_AssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_AssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		57E22EAA2B33943400A6F1D5 /* Exercise1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1.swift; sourceTree = "<group>"; };
+		57E22EAD2B33983A00A6F1D5 /* ProductObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductObject.swift; sourceTree = "<group>"; };
+		57E22EAF2B339A4600A6F1D5 /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		57E22EB12B339A8500A6F1D5 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		57E22EB32B339B6F00A6F1D5 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		57E22E782B33923E00A6F1D5 /* Swift Assessment */ = {
 			isa = PBXGroup;
 			children = (
+				57E22EAC2B33971E00A6F1D5 /* Excersice 2 */,
 				57E22EA92B33938E00A6F1D5 /* Excersice 1 */,
 				57E22E792B33923E00A6F1D5 /* AppDelegate.swift */,
 				57E22E7B2B33923E00A6F1D5 /* SceneDelegate.swift */,
@@ -136,6 +145,17 @@
 				57E22EAA2B33943400A6F1D5 /* Exercise1.swift */,
 			);
 			path = "Excersice 1";
+			sourceTree = "<group>";
+		};
+		57E22EAC2B33971E00A6F1D5 /* Excersice 2 */ = {
+			isa = PBXGroup;
+			children = (
+				57E22EAD2B33983A00A6F1D5 /* ProductObject.swift */,
+				57E22EAF2B339A4600A6F1D5 /* ProductService.swift */,
+				57E22EB12B339A8500A6F1D5 /* ProductViewModel.swift */,
+				57E22EB32B339B6F00A6F1D5 /* ProductTableViewCell.swift */,
+			);
+			path = "Excersice 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E22EB22B339A8500A6F1D5 /* ProductViewModel.swift in Sources */,
+				57E22EB42B339B6F00A6F1D5 /* ProductTableViewCell.swift in Sources */,
 				57E22E7E2B33923E00A6F1D5 /* ViewController.swift in Sources */,
 				57E22E7A2B33923E00A6F1D5 /* AppDelegate.swift in Sources */,
 				57E22E7C2B33923E00A6F1D5 /* SceneDelegate.swift in Sources */,
+				57E22EAE2B33983A00A6F1D5 /* ProductObject.swift in Sources */,
 				57E22EAB2B33943400A6F1D5 /* Exercise1.swift in Sources */,
+				57E22EB02B339A4600A6F1D5 /* ProductService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
