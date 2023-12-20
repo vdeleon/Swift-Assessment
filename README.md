@@ -1,3 +1,6 @@
+The main app run excersice 2-3, to check to excercise 4 change to branch 4. and the any branch you execute exercise 1 - 5.
+
+
 Excersice 1
 <img width="871" alt="Excercise 1-1" src="https://github.com/vdeleon/Swift-Assessment/assets/357487/e26dc0ef-9e82-4063-b757-531740f0efd5">
 
