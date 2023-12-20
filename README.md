@@ -1,7 +1,7 @@
 Excersice 1
 <img width="871" alt="Excercise 1-1" src="https://github.com/vdeleon/Swift-Assessment/assets/357487/e26dc0ef-9e82-4063-b757-531740f0efd5">
 
-Excersice 2
+Excersice 2 - 3
 <img width="1148" alt="Excercise 2" src="https://github.com/vdeleon/Swift-Assessment/assets/357487/8ef23a50-4494-4145-a644-e05a821a3588">
 
 Excersice 4
