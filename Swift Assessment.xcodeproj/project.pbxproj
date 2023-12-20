@@ -17,6 +17,7 @@
 		57E22E9B2B33924100A6F1D5 /* Swift_AssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E22E9A2B33924100A6F1D5 /* Swift_AssessmentUITests.swift */; };
 		57E22E9D2B33924100A6F1D5 /* Swift_AssessmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E22E9C2B33924100A6F1D5 /* Swift_AssessmentUITestsLaunchTests.swift */; };
 		57E22EAB2B33943400A6F1D5 /* Exercise1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E22EAA2B33943400A6F1D5 /* Exercise1.swift */; };
+		57E22EB62B339F8100A6F1D5 /* Excercise1Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E22EB52B339F8100A6F1D5 /* Excercise1Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		57E22E9A2B33924100A6F1D5 /* Swift_AssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_AssessmentUITests.swift; sourceTree = "<group>"; };
 		57E22E9C2B33924100A6F1D5 /* Swift_AssessmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_AssessmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		57E22EAA2B33943400A6F1D5 /* Exercise1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise1.swift; sourceTree = "<group>"; };
+		57E22EB52B339F8100A6F1D5 /* Excercise1Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Excercise1Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				57E22E902B33924000A6F1D5 /* Swift_AssessmentTests.swift */,
+				57E22EB52B339F8100A6F1D5 /* Excercise1Test.swift */,
 			);
 			path = "Swift AssessmentTests";
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57E22E912B33924000A6F1D5 /* Swift_AssessmentTests.swift in Sources */,
+				57E22EB62B339F8100A6F1D5 /* Excercise1Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
