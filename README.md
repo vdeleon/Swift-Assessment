@@ -5,7 +5,7 @@ Excersice 2
 <img width="1148" alt="Excercise 2" src="https://github.com/vdeleon/Swift-Assessment/assets/357487/8ef23a50-4494-4145-a644-e05a821a3588">
 
 Excersice 4
-<img width="904" alt="Excercise 4" src="https://github.com/vdeleon/Swift-Assessment/assets/354487/ce757a66-4dda-4e3c-8166-7177236f1b2f">
+<img width="904" alt="Excercise 4" src="https://github.com/vdeleon/Swift-Assessment/assets/357487/1fdc5df2-4787-4ff6-ab6e-a479ccfad33c">
 
 Excersice 5
 
