@@ -85,7 +85,7 @@ class ProductService {
             let Cdproduct = CdProduct(context: context)
             Cdproduct.title = productElement.title
             Cdproduct.price = NSNumber(value: productElement.price)
-            // Add other properties as needed
+            Cdproduct.thumbnail = productElement.thumbnail
         }
 
         do {
