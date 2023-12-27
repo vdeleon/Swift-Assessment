@@ -64,16 +64,31 @@ class ProductTableViewCell: UITableViewCell {
     func configure(with product: ProductElement) {
         titleLabel.text = product.title
         priceLabel.text = "Price: \(product.price)"
-        
-        if let url = URL(string: product.thumbnail) {
-            URLSession.shared.dataTask(with: url) { data, response, error in
-                guard let data = data, error == nil else { return }
-                DispatchQueue.main.async {
-                    self.thumbnailImageView.image = UIImage(data: data)
+
+        thumbnailImageView.image = UIImage(named: "Image-placeholder")
+
+        if let thumbnailURL = URL(string: product.thumbnail) {
+            let urlRequest = URLRequest(url: thumbnailURL, cachePolicy: .returnCacheDataElseLoad, timeoutInterval: 30)
+
+            let task = URLSession.shared.dataTask(with: urlRequest) { [weak self] (data, response, error) in
+                guard let data = data, error == nil else {
+                    DispatchQueue.main.async {
+                        self?.thumbnailImageView.image = UIImage(named: "Image-placeholder")
+                    }
+                    return
                 }
-            }.resume()
+
+                DispatchQueue.main.async {
+                    self?.thumbnailImageView.image = UIImage(data: data)
+                }
+            }
+
+            task.resume()
+        } else {
+            thumbnailImageView.image = UIImage(named: "Image-placeholder")
         }
     }
+
 }
 
 
