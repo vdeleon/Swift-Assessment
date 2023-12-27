@@ -8,7 +8,7 @@
 import CoreData
 
 @objc(CdProduct)
-class ProductCD: NSManagedObject {
+class CdProduct: NSManagedObject {
     @NSManaged public var title: String
     @NSManaged public var price: NSNumber
     @NSManaged public var thumbnail: String
