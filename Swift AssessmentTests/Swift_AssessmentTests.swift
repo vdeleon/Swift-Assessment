@@ -1,36 +1,40 @@
 //
-//  Swift_AssessmentTests.swift
+//  Excercise1Test.swift
 //  Swift AssessmentTests
 //
 //  Created by VICTOR MANUEL DE LEON CHI on 20/12/23.
 //
 
 import XCTest
-@testable import Swift_Assessment
 
-final class Swift_AssessmentTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+final class Excercise1Test: XCTestCase {
+    
+    func sumOfEvenNumbers(_ numbers: [Int]) -> Int {
+        var sum = 0
+        
+        for number in numbers {
+            if number % 2 == 0 {
+                sum += number
+            }
         }
+        
+        return sum
     }
 
+    func testSumOfEvenNumbers() {
+        // Arrange
+        let numbers1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        let numbers2 = [11, 13, 15, 17, 19]
+        let numbers3 = [2, 4, 6, 8, 10]
+        
+        // Act
+        let result1 = sumOfEvenNumbers(numbers1)
+        let result2 = sumOfEvenNumbers(numbers2)
+        let result3 = sumOfEvenNumbers(numbers3)
+        
+        // Assert
+        XCTAssertEqual(result1, 30, "Sum of even numbers for numbers1 should be 30")
+        XCTAssertEqual(result2, 0, "Sum of even numbers for numbers2 should be 0")
+        XCTAssertEqual(result3, 30, "Sum of even numbers for numbers3 should be 30")
+    }
 }
