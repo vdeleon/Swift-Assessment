@@ -11,7 +11,7 @@ class CoreDataStack {
     static let shared = CoreDataStack()
 
     lazy var persistentContainer: NSPersistentContainer = {
-        let container = NSPersistentContainer(name: "excercise3") // Make sure to use your data model file name
+        let container = NSPersistentContainer(name: "excercise3")
         container.loadPersistentStores { _, error in
             if let error = error as NSError? {
                 fatalError("Unresolved error \(error), \(error.userInfo)")
